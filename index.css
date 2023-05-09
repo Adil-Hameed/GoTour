@@ -7,16 +7,7 @@
     /* border: 1px solid #000; */
 }
 
-.w-375 {
-    width: 100%;
-}
 
-@media screen and (max-width: 375px) {
-    .w-375 {
-        width: 100%;
-        /* border: 1px solid #000; */
-    }
-}
 
 .fs-14 {
     font-size: 14px;
@@ -82,6 +73,7 @@
 
 .sign-up-parent {
     margin-top: 68px;
+    min-height: calc(100vh - 93px - 0.25rem);
 }
 
 .logo {
